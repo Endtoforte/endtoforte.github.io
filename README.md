@@ -1,1 +1,2 @@
-# Going to be inspiring class
+# Science forever
+<title>Beranda | Endtoforte</title>
