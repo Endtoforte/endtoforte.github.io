@@ -1,4 +1,4 @@
-# "The Science Class"
+# Science
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tincidunt turpis. Etiam ullamcorper varius quam ut faucibus. Nulla facilisi. Aliquam dignissim ex eu interdum fringilla. Duis a urna vel augue luctus euismod id ut enim. Duis finibus erat vitae ligula suscipit vestibulum. Ut non tempus mi. Vivamus fermentum risus et tellus laoreet, eget lobortis felis condimentum.
 
