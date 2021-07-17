@@ -1,2 +1,2 @@
-# Science forever
-<title>Beranda | Endtoforte</title>
+# Lorem ipsum
+Lorem ipsum
