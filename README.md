@@ -1,8 +1,11 @@
-# Lorem ipsum
-Lorem ipsum
+# "The Science Class"
 
-<style>
-.footer {
-  display: none;
-}
-</style>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tincidunt turpis. Etiam ullamcorper varius quam ut faucibus. Nulla facilisi. Aliquam dignissim ex eu interdum fringilla. Duis a urna vel augue luctus euismod id ut enim. Duis finibus erat vitae ligula suscipit vestibulum. Ut non tempus mi. Vivamus fermentum risus et tellus laoreet, eget lobortis felis condimentum.
+
+Mauris faucibus rhoncus nisl sed molestie. Curabitur scelerisque tristique mauris, sit amet consectetur enim gravida eu. Donec rhoncus quam eros, eu pellentesque mi semper sit amet. Ut ac felis quis arcu facilisis auctor. Proin a hendrerit turpis. Vivamus tempus et dui a dapibus. Quisque viverra vitae enim sit amet blandit. Sed ipsum enim, faucibus nec pretium vitae, cursus vel metus. Sed molestie varius nibh, quis aliquam quam consequat et. Vestibulum scelerisque dui non cursus tincidunt. Donec ut interdum tellus. Nam non lectus porta, pretium sapien at, pharetra dolor. Fusce porta lorem a sodales dapibus. Cras tincidunt ornare tortor ac vestibulum. Suspendisse in massa purus. Donec consequat mollis nisl, ornare mollis eros accumsan eget.
+
+Morbi varius, nibh eu ultricies tempor, ex lectus mattis eros, id ultrices risus dolor nec turpis. Quisque ullamcorper risus non massa auctor, eget volutpat nulla sollicitudin. Cras magna urna, lacinia in fermentum vitae, aliquam id massa. Aliquam ornare odio venenatis quam venenatis, et imperdiet quam porttitor. Praesent venenatis egestas magna feugiat ultrices. Aliquam sed risus velit. Nam eu libero pellentesque, fringilla leo eu, porta quam. Morbi placerat sem ut lacus eleifend sodales. Morbi eget gravida odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Proin ligula urna, convallis sed magna a, suscipit condimentum felis. Ut quis massa orci. Proin sit amet sollicitudin neque, id vehicula magna. Etiam faucibus egestas magna, sit amet pulvinar leo fringilla eu. In hac habitasse platea dictumst. Donec vestibulum placerat arcu, in iaculis massa faucibus et. Phasellus fringilla volutpat tincidunt. Phasellus molestie placerat neque at blandit. Morbi eget lorem dolor. Suspendisse in mauris eget enim aliquet cursus. Aenean varius auctor odio id condimentum. Praesent placerat odio et fringilla efficitur. Praesent ut nisl iaculis, feugiat turpis sagittis, sollicitudin magna. Ut feugiat est nec congue hendrerit.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque lacus odio, convallis at dolor sit amet, ornare consectetur ex. Donec tempor, turpis id pulvinar blandit, urna diam ultricies sem, at pulvinar enim massa sed ex. Nunc non massa ut libero rhoncus interdum consequat quis nunc. Maecenas hendrerit, tortor a placerat vestibulum, mi justo interdum sem, vitae molestie nulla ex et leo. Nullam nec orci tellus. In pulvinar aliquet mauris nec iaculis. Praesent sit amet sollicitudin lorem.
