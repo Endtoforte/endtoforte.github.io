@@ -15,27 +15,28 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
-    .navbar {
-    width: 100%; /* Full-width */
-    background-color: #555; /* Dark-grey background */
-    overflow: hidden; /* Overflow due to float */
+    #navbar {
+    overflow: hidden;
+    background-color: #333;
 }
 
-    .navbar a {
-    float: left; /* Float links side by side */
+/* Navbar links */
+    #navbar a {
+    float: left;
     display: block;
-    text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 14px 0; /* Some top and bottom padding */
-    color: white; /* White text color */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
+
 /* Page content */
     .content {
     padding: 16px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-     .sticky {
+    .sticky {
     position: fixed;
     top: 0;
     width: 100%;
@@ -45,23 +46,14 @@
     .sticky + .content {
     padding-top: 60px;
 }
-    .navbar a:hover {
-    background-color: #000; /* Add a hover color */
-    color: green;
-}
-    .header {
-    text-family: "century-gothic", sans-serif;
-    text-style: normal;
-    text-align: center;
-}
   </style>
 </head>
 <body>
   <div class="header">
     <h1>Endtoforte</h1>
   </div>
-  <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <div id="navbar">
+    <a href="#"><i class="fa fa-home"></i></a>
     <a href="#"><i class="fa fa-envelope"></i></a>
     <a href="#"><i class="fa fa-search" style="font-style: 30px;"></i></a>
     <a href="#"><i class="fa fa-globe"></i></a>
