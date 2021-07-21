@@ -44,32 +44,13 @@
     .main {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
-    .header  {
-   background: #fff;
-   position: fixed;
-}
-
-/* Page content */
-    .content {
-    padding: 16px;
-}
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-    .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-    .sticky + .content {
-    padding-top: 102px;
-}
   </style>
 </head>
 <body>
-  <div class="header" id="myHeader">
-    <h2>My Header</h2>
+  <header>
+    <div class="header" id="myHeader">
+      <h2>Endtoforte</h2>
+  </header
   </div>
   <div class="navbar">
     <a href="#home"><i class="fa fa-home"></i></a>
@@ -130,24 +111,6 @@
     </div>
   </div>
 </footer>
-<script>
-  window.onscroll = function() {myFunction()};
-
-// Get the navbar
-  var navbar = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-  var sticky = header.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      header.classList.add("sticky")
-  } else {
-      header.classList.remove("sticky");
-  }
-}
-</script 
 </body>
 <html>
 
