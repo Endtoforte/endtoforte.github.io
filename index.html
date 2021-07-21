@@ -15,24 +15,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
-    .icon-bar {
+    .navbar {
     width: 100%; /* Full-width */
     background-color: #555; /* Dark-grey background */
     overflow: hidden; /* Overflow due to float */
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-
 }
 
-    .icon-bar a {
+    .navbar a {
     float: left; /* Float links side by side */
     display: block;
     text-align: center; /* Center-align text */
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
+    padding: 14px 0; /* Some top and bottom padding */
     color: white; /* White text color */
-    font-size: 15px; /* Increased font size */
 }
 /* Page content */
     .content {
@@ -50,7 +45,7 @@
     .sticky + .content {
     padding-top: 60px;
 }
-    .icon-bar a:hover {
+    .navbar a:hover {
     background-color: #000; /* Add a hover color */
     color: green;
 }
@@ -65,7 +60,7 @@
   <div class="header">
     <h1>Endtoforte</h1>
   </div>
-  <div class="icon-bar">
+  <div class="navbar">
     <a class="active" href="#"><i class="fa fa-home"></i></a>
     <a href="#"><i class="fa fa-envelope"></i></a>
     <a href="#"><i class="fa fa-search" style="font-style: 30px;"></i></a>
@@ -97,10 +92,10 @@
   window.onscroll = function() {myFunction()};
 
 // Get the navbar
-  var navbar = document.getElementById("icon-bar");
+  var navbar = document.getElementById("navbar");
 
 // Get the offset position of the navbar
-  var sticky = icon-bar.offsetTop;
+  var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
   function myFunction() {
