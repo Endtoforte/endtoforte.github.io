@@ -19,10 +19,14 @@
     width: 100%; /* Full-width */
     background-color: #555; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+
 }
 
     .icon-bar a {
     float: left; /* Float links side by side */
+    display: block;
     text-align: center; /* Center-align text */
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
@@ -30,24 +34,9 @@
     color: white; /* White text color */
     font-size: 15px; /* Increased font size */
 }
-    .content {
-    padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-    .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-    .sticky + .content {
-    padding-top: 60px;
-}
-
     .icon-bar a:hover {
     background-color: #000; /* Add a hover color */
+    color: green;
 }
     .header {
     text-family: "century-gothic", sans-serif;
