@@ -1,39 +1,104 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<!-- font-family: 'Nanum Gothic', sans-serif; -->
-  <title>Beranda - endtoforte</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#078703">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  </style>
+ <meta charset="utf-8">  
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#078703">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ <style>
+  body {
+  margin:0;
+}
+
+  .navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+  .navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 20%;
+}
+
+  .navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+  .main {
+  padding: 16px;
+  margin-bottom: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+  .header {
+    /* Stick to the top */
+  position: sticky;
+  top: 0;
+}
+</style>
 </head>
 <body>
-  <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-  <a href="https://logwork.com/countdown-qpxm" class="countdown-timer" data-style="circles" data-timezone="Asia/Jakarta" data-date="2021-09-08 08:45" data-digitscolor="#00991f">Amazing Website Shown in</a>
-  <footer>
-    <div>
-      <h2 style="font-family: 'Nanum Gothic', sans-serif; text-align: center;">Endtoforte</h2>
-      <p style="font-family: 'Nanum Gothic', sans-serif; text-align: center;">© Copyright 2019 - 2021 | Endtoforte</p>
-    </div>
-  </div>
+
+<div class="navbar">
+  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightning" viewBox="0 0 16 16">
+  <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z"/>
+  </svg></a>
+  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+  </svg></a>
+  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+  </svg></a>
+</div>
+<div>
+ <header class="header">
+  <h3>🗿 EndToforte 🗿</h3>
+ </header>
+</div>
+<div class="main">
+ <h1>Fixed Bottom Menu</h1>
+ <h2>Scroll this page to see the effect</h2>
+ <h2>The navigation bar will stay at the bottom of the page while scrolling</h2>
+  
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+ <p>Some text some text some text some text..</p>
+</div>
+<footer class="footer">
+ <div>
+   <p>© Copyright Endtoforte</p> 
+ </div>
 </footer>
 </body>
-<html>
-
-
-
-
-
-
-
+</html>
