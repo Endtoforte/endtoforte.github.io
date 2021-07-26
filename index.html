@@ -4,109 +4,28 @@
  <meta charset="utf-8">  
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="theme-color" content="#078703">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
- <style>
-  html {
-   text-family: 'Noto Sans', sans-serif;
-  }
-  footer {
-  
-  }
-  main {
-   width: 2000px;
-  }
-  body {
-  margin: 0;
-  font-size: 18px;
-  height: 2000px;
-}
-
-  .header {
-  background-color: #f5f5f5;
-  padding: 22px;
-  text-align: center;
-}
-
-  #navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-  #navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-  #navbar a:hover {
-  background-color: #0b7dda;
-  color: yellow;
-}
-
-  #navbar a.active {
-  background-color: #2196F3;
-  color: white;
-}
-
-  .content {
-  /* padding: 16px; */
-}
-
-  .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-  .sticky + .content {
-  padding-top: 60px;
-}
- </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
 <body>
-<div class="header">
- <h2>Silahkan scroll kebawah</h2>
- <h2>Untuk melihat efek dari stycky menu</h2>
+<div class="icon-bar">
+  <a cla<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> ss="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
 </div>
-<div id="navbar">
- <a class="active" href="javascript:void(0)">Home</a>
- <a href="javascript:void(0)">Menu</a>
- <a href="javascript:void(0)">Blog</a>
-</div>
-<div class="content">
- <h3>Membuat sticky navbar menu</h3>
- <p>Menu navbar ini akan selalu berada di halaman atas ketika Anda scroll ke bawah</p>
- <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-</div>
-<footer class="footer">
- <div>
-  <hr>
-    <a href="/about">About</a>
-    <p>© Copyright 2021 endtoforte</p>
- </div>
-</footer>
-<script>
- window.onscroll = function() {myFunction()};
- var navbar = document.getElementById("navbar");
- var sticky = navbar.offsetTop;
- function myFunction() {
-  if (window.pageYOffset >= sticky) {
-   navbar.classList.add("sticky")
-} else {
-   navbar.classList.remove("sticky");
-  }
-}
-</script>
 </body>
 </html>
 <!-- DARK GREEN #00520f, #006400 -->
