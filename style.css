@@ -2,9 +2,6 @@
   width: 100%; /* Full-width */
   background-color: #555; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 
 }
 
@@ -25,6 +22,15 @@
 .active {
   background-color: #04AA6D; /* Add an active/current color */
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
 main {
   height: 1000px;
   font-size: 40px;
